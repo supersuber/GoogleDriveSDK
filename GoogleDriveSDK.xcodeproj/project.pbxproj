@@ -91,7 +91,6 @@
 		891C1E741AB7AE9B00DB702E /* GTMMIMEDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E361AB7AE9B00DB702E /* GTMMIMEDocument.m */; };
 		891C1E751AB7AE9B00DB702E /* GTMReadMonitorInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E371AB7AE9B00DB702E /* GTMReadMonitorInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E761AB7AE9B00DB702E /* GTMReadMonitorInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E381AB7AE9B00DB702E /* GTMReadMonitorInputStream.m */; };
-		891C1E771AB7AE9B00DB702E /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E391AB7AE9B00DB702E /* JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E791AB7AE9B00DB702E /* SBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E3B1AB7AE9B00DB702E /* SBJsonBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E7A1AB7AE9B00DB702E /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E3C1AB7AE9B00DB702E /* SBJsonBase.m */; };
 		891C1E7B1AB7AE9B00DB702E /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E3D1AB7AE9B00DB702E /* SBJsonParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -206,7 +205,6 @@
 		891C1E361AB7AE9B00DB702E /* GTMMIMEDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMMIMEDocument.m; sourceTree = "<group>"; };
 		891C1E371AB7AE9B00DB702E /* GTMReadMonitorInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMReadMonitorInputStream.h; sourceTree = "<group>"; };
 		891C1E381AB7AE9B00DB702E /* GTMReadMonitorInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMReadMonitorInputStream.m; sourceTree = "<group>"; };
-		891C1E391AB7AE9B00DB702E /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		891C1E3A1AB7AE9B00DB702E /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		891C1E3B1AB7AE9B00DB702E /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
 		891C1E3C1AB7AE9B00DB702E /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
@@ -390,7 +388,6 @@
 				891C1E361AB7AE9B00DB702E /* GTMMIMEDocument.m */,
 				891C1E371AB7AE9B00DB702E /* GTMReadMonitorInputStream.h */,
 				891C1E381AB7AE9B00DB702E /* GTMReadMonitorInputStream.m */,
-				891C1E391AB7AE9B00DB702E /* JSON.h */,
 				891C1E3A1AB7AE9B00DB702E /* JSON.h */,
 				891C1E3B1AB7AE9B00DB702E /* SBJsonBase.h */,
 				891C1E3C1AB7AE9B00DB702E /* SBJsonBase.m */,
@@ -459,8 +456,6 @@
 				891C1E011AB7AE8100DB702E /* GTLDrivePermission.h in Headers */,
 				891C1DFB1AB7AE8100DB702E /* GTLDriveFileList.h in Headers */,
 				891C1E731AB7AE9B00DB702E /* GTMMIMEDocument.h in Headers */,
-				891C1E771AB7AE9B00DB702E /* JSON.h in Headers */,
-				891C1E771AB7AE9B00DB702E /* JSON.h in Headers */,
 				891C1DFF1AB7AE8100DB702E /* GTLDriveParentReference.h in Headers */,
 				891C1E051AB7AE8100DB702E /* GTLDriveRevision.h in Headers */,
 				891C1E671AB7AE9B00DB702E /* GTMHTTPFetcherService.h in Headers */,
@@ -807,6 +802,7 @@
 				891C1DBD1AB7AD5500DB702E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		891C1DBE1AB7AD5500DB702E /* Build configuration list for PBXNativeTarget "GoogleDriveSDKTests" */ = {
 			isa = XCConfigurationList;
@@ -815,6 +811,7 @@
 				891C1DC01AB7AD5500DB702E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
