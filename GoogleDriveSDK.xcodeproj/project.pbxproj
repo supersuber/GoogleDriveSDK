@@ -10,102 +10,101 @@
 		891C1DAB1AB7AD5500DB702E /* GoogleDriveSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DAA1AB7AD5500DB702E /* GoogleDriveSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1DB11AB7AD5500DB702E /* GoogleDriveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891C1DA51AB7AD5500DB702E /* GoogleDriveSDK.framework */; };
 		891C1DB81AB7AD5500DB702E /* GoogleDriveSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1DB71AB7AD5500DB702E /* GoogleDriveSDKTests.m */; };
-		891C1DE81AB7AE8100DB702E /* GTLDrive.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DC31AB7AE8100DB702E /* GTLDrive.h */; };
-		891C1DE91AB7AE8100DB702E /* GTLDriveAbout.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DC41AB7AE8100DB702E /* GTLDriveAbout.h */; };
+		891C1DE81AB7AE8100DB702E /* GTLDrive.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DC31AB7AE8100DB702E /* GTLDrive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		891C1DE91AB7AE8100DB702E /* GTLDriveAbout.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DC41AB7AE8100DB702E /* GTLDriveAbout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1DEA1AB7AE8100DB702E /* GTLDriveAbout.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1DC51AB7AE8100DB702E /* GTLDriveAbout.m */; };
-		891C1DEB1AB7AE8100DB702E /* GTLDriveApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DC61AB7AE8100DB702E /* GTLDriveApp.h */; };
+		891C1DEB1AB7AE8100DB702E /* GTLDriveApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DC61AB7AE8100DB702E /* GTLDriveApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1DEC1AB7AE8100DB702E /* GTLDriveApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1DC71AB7AE8100DB702E /* GTLDriveApp.m */; };
-		891C1DED1AB7AE8100DB702E /* GTLDriveAppList.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DC81AB7AE8100DB702E /* GTLDriveAppList.h */; };
+		891C1DED1AB7AE8100DB702E /* GTLDriveAppList.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DC81AB7AE8100DB702E /* GTLDriveAppList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1DEE1AB7AE8100DB702E /* GTLDriveAppList.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1DC91AB7AE8100DB702E /* GTLDriveAppList.m */; };
-		891C1DEF1AB7AE8100DB702E /* GTLDriveChange.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DCA1AB7AE8100DB702E /* GTLDriveChange.h */; };
+		891C1DEF1AB7AE8100DB702E /* GTLDriveChange.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DCA1AB7AE8100DB702E /* GTLDriveChange.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1DF01AB7AE8100DB702E /* GTLDriveChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1DCB1AB7AE8100DB702E /* GTLDriveChange.m */; };
-		891C1DF11AB7AE8100DB702E /* GTLDriveChangeList.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DCC1AB7AE8100DB702E /* GTLDriveChangeList.h */; };
+		891C1DF11AB7AE8100DB702E /* GTLDriveChangeList.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DCC1AB7AE8100DB702E /* GTLDriveChangeList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1DF21AB7AE8100DB702E /* GTLDriveChangeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1DCD1AB7AE8100DB702E /* GTLDriveChangeList.m */; };
-		891C1DF31AB7AE8100DB702E /* GTLDriveChildList.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DCE1AB7AE8100DB702E /* GTLDriveChildList.h */; };
+		891C1DF31AB7AE8100DB702E /* GTLDriveChildList.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DCE1AB7AE8100DB702E /* GTLDriveChildList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1DF41AB7AE8100DB702E /* GTLDriveChildList.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1DCF1AB7AE8100DB702E /* GTLDriveChildList.m */; };
-		891C1DF51AB7AE8100DB702E /* GTLDriveChildReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DD01AB7AE8100DB702E /* GTLDriveChildReference.h */; };
+		891C1DF51AB7AE8100DB702E /* GTLDriveChildReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DD01AB7AE8100DB702E /* GTLDriveChildReference.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1DF61AB7AE8100DB702E /* GTLDriveChildReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1DD11AB7AE8100DB702E /* GTLDriveChildReference.m */; };
-		891C1DF71AB7AE8100DB702E /* GTLDriveConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DD21AB7AE8100DB702E /* GTLDriveConstants.h */; };
+		891C1DF71AB7AE8100DB702E /* GTLDriveConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DD21AB7AE8100DB702E /* GTLDriveConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1DF81AB7AE8100DB702E /* GTLDriveConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1DD31AB7AE8100DB702E /* GTLDriveConstants.m */; };
-		891C1DF91AB7AE8100DB702E /* GTLDriveFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DD41AB7AE8100DB702E /* GTLDriveFile.h */; };
+		891C1DF91AB7AE8100DB702E /* GTLDriveFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DD41AB7AE8100DB702E /* GTLDriveFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1DFA1AB7AE8100DB702E /* GTLDriveFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1DD51AB7AE8100DB702E /* GTLDriveFile.m */; };
-		891C1DFB1AB7AE8100DB702E /* GTLDriveFileList.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DD61AB7AE8100DB702E /* GTLDriveFileList.h */; };
+		891C1DFB1AB7AE8100DB702E /* GTLDriveFileList.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DD61AB7AE8100DB702E /* GTLDriveFileList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1DFC1AB7AE8100DB702E /* GTLDriveFileList.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1DD71AB7AE8100DB702E /* GTLDriveFileList.m */; };
-		891C1DFD1AB7AE8100DB702E /* GTLDriveParentList.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DD81AB7AE8100DB702E /* GTLDriveParentList.h */; };
+		891C1DFD1AB7AE8100DB702E /* GTLDriveParentList.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DD81AB7AE8100DB702E /* GTLDriveParentList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1DFE1AB7AE8100DB702E /* GTLDriveParentList.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1DD91AB7AE8100DB702E /* GTLDriveParentList.m */; };
-		891C1DFF1AB7AE8100DB702E /* GTLDriveParentReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DDA1AB7AE8100DB702E /* GTLDriveParentReference.h */; };
+		891C1DFF1AB7AE8100DB702E /* GTLDriveParentReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DDA1AB7AE8100DB702E /* GTLDriveParentReference.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E001AB7AE8100DB702E /* GTLDriveParentReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1DDB1AB7AE8100DB702E /* GTLDriveParentReference.m */; };
-		891C1E011AB7AE8100DB702E /* GTLDrivePermission.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DDC1AB7AE8100DB702E /* GTLDrivePermission.h */; };
+		891C1E011AB7AE8100DB702E /* GTLDrivePermission.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DDC1AB7AE8100DB702E /* GTLDrivePermission.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E021AB7AE8100DB702E /* GTLDrivePermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1DDD1AB7AE8100DB702E /* GTLDrivePermission.m */; };
-		891C1E031AB7AE8100DB702E /* GTLDrivePermissionList.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DDE1AB7AE8100DB702E /* GTLDrivePermissionList.h */; };
+		891C1E031AB7AE8100DB702E /* GTLDrivePermissionList.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DDE1AB7AE8100DB702E /* GTLDrivePermissionList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E041AB7AE8100DB702E /* GTLDrivePermissionList.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1DDF1AB7AE8100DB702E /* GTLDrivePermissionList.m */; };
-		891C1E051AB7AE8100DB702E /* GTLDriveRevision.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DE01AB7AE8100DB702E /* GTLDriveRevision.h */; };
+		891C1E051AB7AE8100DB702E /* GTLDriveRevision.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DE01AB7AE8100DB702E /* GTLDriveRevision.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E061AB7AE8100DB702E /* GTLDriveRevision.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1DE11AB7AE8100DB702E /* GTLDriveRevision.m */; };
-		891C1E071AB7AE8100DB702E /* GTLDriveRevisionList.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DE21AB7AE8100DB702E /* GTLDriveRevisionList.h */; };
+		891C1E071AB7AE8100DB702E /* GTLDriveRevisionList.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DE21AB7AE8100DB702E /* GTLDriveRevisionList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E081AB7AE8100DB702E /* GTLDriveRevisionList.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1DE31AB7AE8100DB702E /* GTLDriveRevisionList.m */; };
-		891C1E091AB7AE8100DB702E /* GTLQueryDrive.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DE41AB7AE8100DB702E /* GTLQueryDrive.h */; };
+		891C1E091AB7AE8100DB702E /* GTLQueryDrive.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DE41AB7AE8100DB702E /* GTLQueryDrive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E0A1AB7AE8100DB702E /* GTLQueryDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1DE51AB7AE8100DB702E /* GTLQueryDrive.m */; };
-		891C1E0B1AB7AE8100DB702E /* GTLServiceDrive.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DE61AB7AE8100DB702E /* GTLServiceDrive.h */; };
+		891C1E0B1AB7AE8100DB702E /* GTLServiceDrive.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DE61AB7AE8100DB702E /* GTLServiceDrive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E0C1AB7AE8100DB702E /* GTLServiceDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1DE71AB7AE8100DB702E /* GTLServiceDrive.m */; };
-		891C1E4B1AB7AE9B00DB702E /* GTLDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E0D1AB7AE9B00DB702E /* GTLDefines.h */; };
-		891C1E4C1AB7AE9B00DB702E /* GTLObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E0E1AB7AE9B00DB702E /* GTLObject.h */; };
+		891C1E4B1AB7AE9B00DB702E /* GTLDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E0D1AB7AE9B00DB702E /* GTLDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		891C1E4C1AB7AE9B00DB702E /* GTLObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E0E1AB7AE9B00DB702E /* GTLObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E4D1AB7AE9B00DB702E /* GTLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E0F1AB7AE9B00DB702E /* GTLObject.m */; };
-		891C1E4E1AB7AE9B00DB702E /* GTLQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E101AB7AE9B00DB702E /* GTLQuery.h */; };
+		891C1E4E1AB7AE9B00DB702E /* GTLQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E101AB7AE9B00DB702E /* GTLQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E4F1AB7AE9B00DB702E /* GTLQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E111AB7AE9B00DB702E /* GTLQuery.m */; };
-		891C1E501AB7AE9B00DB702E /* GTLBatchQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E121AB7AE9B00DB702E /* GTLBatchQuery.h */; };
+		891C1E501AB7AE9B00DB702E /* GTLBatchQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E121AB7AE9B00DB702E /* GTLBatchQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E511AB7AE9B00DB702E /* GTLBatchQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E131AB7AE9B00DB702E /* GTLBatchQuery.m */; };
-		891C1E521AB7AE9B00DB702E /* GTLService.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E141AB7AE9B00DB702E /* GTLService.h */; };
+		891C1E521AB7AE9B00DB702E /* GTLService.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E141AB7AE9B00DB702E /* GTLService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E531AB7AE9B00DB702E /* GTLService.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E151AB7AE9B00DB702E /* GTLService.m */; };
-		891C1E541AB7AE9B00DB702E /* GTLBatchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E161AB7AE9B00DB702E /* GTLBatchResult.h */; };
+		891C1E541AB7AE9B00DB702E /* GTLBatchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E161AB7AE9B00DB702E /* GTLBatchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E551AB7AE9B00DB702E /* GTLBatchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E171AB7AE9B00DB702E /* GTLBatchResult.m */; };
-		891C1E561AB7AE9B00DB702E /* GTLUploadParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E181AB7AE9B00DB702E /* GTLUploadParameters.h */; };
+		891C1E561AB7AE9B00DB702E /* GTLUploadParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E181AB7AE9B00DB702E /* GTLUploadParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E571AB7AE9B00DB702E /* GTLUploadParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E191AB7AE9B00DB702E /* GTLUploadParameters.m */; };
-		891C1E581AB7AE9B00DB702E /* GTLDateTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E1A1AB7AE9B00DB702E /* GTLDateTime.h */; };
+		891C1E581AB7AE9B00DB702E /* GTLDateTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E1A1AB7AE9B00DB702E /* GTLDateTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E591AB7AE9B00DB702E /* GTLDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E1B1AB7AE9B00DB702E /* GTLDateTime.m */; };
-		891C1E5A1AB7AE9B00DB702E /* GTLErrorObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E1C1AB7AE9B00DB702E /* GTLErrorObject.h */; };
+		891C1E5A1AB7AE9B00DB702E /* GTLErrorObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E1C1AB7AE9B00DB702E /* GTLErrorObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E5B1AB7AE9B00DB702E /* GTLErrorObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E1D1AB7AE9B00DB702E /* GTLErrorObject.m */; };
-		891C1E5C1AB7AE9B00DB702E /* GTLRuntimeCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E1E1AB7AE9B00DB702E /* GTLRuntimeCommon.h */; };
+		891C1E5C1AB7AE9B00DB702E /* GTLRuntimeCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E1E1AB7AE9B00DB702E /* GTLRuntimeCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E5D1AB7AE9B00DB702E /* GTLRuntimeCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E1F1AB7AE9B00DB702E /* GTLRuntimeCommon.m */; };
-		891C1E5E1AB7AE9B00DB702E /* GTLFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E201AB7AE9B00DB702E /* GTLFramework.h */; };
+		891C1E5E1AB7AE9B00DB702E /* GTLFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E201AB7AE9B00DB702E /* GTLFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E5F1AB7AE9B00DB702E /* GTLFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E211AB7AE9B00DB702E /* GTLFramework.m */; };
-		891C1E601AB7AE9B00DB702E /* GTLJSONParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E221AB7AE9B00DB702E /* GTLJSONParser.h */; };
+		891C1E601AB7AE9B00DB702E /* GTLJSONParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E221AB7AE9B00DB702E /* GTLJSONParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E611AB7AE9B00DB702E /* GTLJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E231AB7AE9B00DB702E /* GTLJSONParser.m */; };
-		891C1E621AB7AE9B00DB702E /* GTLTargetNamespace.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E241AB7AE9B00DB702E /* GTLTargetNamespace.h */; };
-		891C1E631AB7AE9B00DB702E /* GTLUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E251AB7AE9B00DB702E /* GTLUtilities.h */; };
+		891C1E621AB7AE9B00DB702E /* GTLTargetNamespace.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E241AB7AE9B00DB702E /* GTLTargetNamespace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		891C1E631AB7AE9B00DB702E /* GTLUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E251AB7AE9B00DB702E /* GTLUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E641AB7AE9B00DB702E /* GTLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E261AB7AE9B00DB702E /* GTLUtilities.m */; };
-		891C1E651AB7AE9B00DB702E /* GTLBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E271AB7AE9B00DB702E /* GTLBase64.h */; };
+		891C1E651AB7AE9B00DB702E /* GTLBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E271AB7AE9B00DB702E /* GTLBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E661AB7AE9B00DB702E /* GTLBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E281AB7AE9B00DB702E /* GTLBase64.m */; };
-		891C1E671AB7AE9B00DB702E /* GTMHTTPFetcherService.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E291AB7AE9B00DB702E /* GTMHTTPFetcherService.h */; };
+		891C1E671AB7AE9B00DB702E /* GTMHTTPFetcherService.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E291AB7AE9B00DB702E /* GTMHTTPFetcherService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E681AB7AE9B00DB702E /* GTMHTTPFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E2A1AB7AE9B00DB702E /* GTMHTTPFetcherService.m */; };
-		891C1E691AB7AE9B00DB702E /* GTMHTTPFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E2B1AB7AE9B00DB702E /* GTMHTTPFetcher.h */; };
+		891C1E691AB7AE9B00DB702E /* GTMHTTPFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E2B1AB7AE9B00DB702E /* GTMHTTPFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E6A1AB7AE9B00DB702E /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E2C1AB7AE9B00DB702E /* GTMHTTPFetcher.m */; };
-		891C1E6B1AB7AE9B00DB702E /* GTMHTTPFetcherLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E2D1AB7AE9B00DB702E /* GTMHTTPFetcherLogging.h */; };
+		891C1E6B1AB7AE9B00DB702E /* GTMHTTPFetcherLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E2D1AB7AE9B00DB702E /* GTMHTTPFetcherLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E6C1AB7AE9B00DB702E /* GTMHTTPFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E2E1AB7AE9B00DB702E /* GTMHTTPFetcherLogging.m */; };
-		891C1E6D1AB7AE9B00DB702E /* GTMHTTPFetchHistory.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E2F1AB7AE9B00DB702E /* GTMHTTPFetchHistory.h */; };
+		891C1E6D1AB7AE9B00DB702E /* GTMHTTPFetchHistory.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E2F1AB7AE9B00DB702E /* GTMHTTPFetchHistory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E6E1AB7AE9B00DB702E /* GTMHTTPFetchHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E301AB7AE9B00DB702E /* GTMHTTPFetchHistory.m */; };
-		891C1E6F1AB7AE9B00DB702E /* GTMHTTPUploadFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E311AB7AE9B00DB702E /* GTMHTTPUploadFetcher.h */; };
+		891C1E6F1AB7AE9B00DB702E /* GTMHTTPUploadFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E311AB7AE9B00DB702E /* GTMHTTPUploadFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E701AB7AE9B00DB702E /* GTMHTTPUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E321AB7AE9B00DB702E /* GTMHTTPUploadFetcher.m */; };
-		891C1E711AB7AE9B00DB702E /* GTMGatherInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E331AB7AE9B00DB702E /* GTMGatherInputStream.h */; };
+		891C1E711AB7AE9B00DB702E /* GTMGatherInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E331AB7AE9B00DB702E /* GTMGatherInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E721AB7AE9B00DB702E /* GTMGatherInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E341AB7AE9B00DB702E /* GTMGatherInputStream.m */; };
-		891C1E731AB7AE9B00DB702E /* GTMMIMEDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E351AB7AE9B00DB702E /* GTMMIMEDocument.h */; };
+		891C1E731AB7AE9B00DB702E /* GTMMIMEDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E351AB7AE9B00DB702E /* GTMMIMEDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E741AB7AE9B00DB702E /* GTMMIMEDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E361AB7AE9B00DB702E /* GTMMIMEDocument.m */; };
-		891C1E751AB7AE9B00DB702E /* GTMReadMonitorInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E371AB7AE9B00DB702E /* GTMReadMonitorInputStream.h */; };
+		891C1E751AB7AE9B00DB702E /* GTMReadMonitorInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E371AB7AE9B00DB702E /* GTMReadMonitorInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E761AB7AE9B00DB702E /* GTMReadMonitorInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E381AB7AE9B00DB702E /* GTMReadMonitorInputStream.m */; };
-		891C1E771AB7AE9B00DB702E /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E391AB7AE9B00DB702E /* JSON.h */; };
-		891C1E781AB7AE9B00DB702E /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E3A1AB7AE9B00DB702E /* JSON.h */; };
-		891C1E791AB7AE9B00DB702E /* SBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E3B1AB7AE9B00DB702E /* SBJsonBase.h */; };
+		891C1E771AB7AE9B00DB702E /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E391AB7AE9B00DB702E /* JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		891C1E791AB7AE9B00DB702E /* SBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E3B1AB7AE9B00DB702E /* SBJsonBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E7A1AB7AE9B00DB702E /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E3C1AB7AE9B00DB702E /* SBJsonBase.m */; };
-		891C1E7B1AB7AE9B00DB702E /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E3D1AB7AE9B00DB702E /* SBJsonParser.h */; };
+		891C1E7B1AB7AE9B00DB702E /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E3D1AB7AE9B00DB702E /* SBJsonParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E7C1AB7AE9B00DB702E /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E3E1AB7AE9B00DB702E /* SBJsonParser.m */; };
-		891C1E7D1AB7AE9B00DB702E /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E3F1AB7AE9B00DB702E /* SBJsonWriter.h */; };
+		891C1E7D1AB7AE9B00DB702E /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E3F1AB7AE9B00DB702E /* SBJsonWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E7E1AB7AE9B00DB702E /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E401AB7AE9B00DB702E /* SBJsonWriter.m */; };
-		891C1E7F1AB7AE9B00DB702E /* GTMOAuth2Authentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E411AB7AE9B00DB702E /* GTMOAuth2Authentication.h */; };
+		891C1E7F1AB7AE9B00DB702E /* GTMOAuth2Authentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E411AB7AE9B00DB702E /* GTMOAuth2Authentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E801AB7AE9B00DB702E /* GTMOAuth2Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E421AB7AE9B00DB702E /* GTMOAuth2Authentication.m */; };
-		891C1E811AB7AE9B00DB702E /* GTMOAuth2SignIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E431AB7AE9B00DB702E /* GTMOAuth2SignIn.h */; };
+		891C1E811AB7AE9B00DB702E /* GTMOAuth2SignIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E431AB7AE9B00DB702E /* GTMOAuth2SignIn.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E821AB7AE9B00DB702E /* GTMOAuth2SignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E441AB7AE9B00DB702E /* GTMOAuth2SignIn.m */; };
-		891C1E841AB7AE9B00DB702E /* GTMOAuth2WindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E461AB7AE9B00DB702E /* GTMOAuth2WindowController.h */; };
+		891C1E841AB7AE9B00DB702E /* GTMOAuth2WindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E461AB7AE9B00DB702E /* GTMOAuth2WindowController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E851AB7AE9B00DB702E /* GTMOAuth2WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E471AB7AE9B00DB702E /* GTMOAuth2WindowController.m */; };
-		891C1E861AB7AE9B00DB702E /* GTMOAuth2ViewControllerTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E481AB7AE9B00DB702E /* GTMOAuth2ViewControllerTouch.h */; };
+		891C1E861AB7AE9B00DB702E /* GTMOAuth2ViewControllerTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E481AB7AE9B00DB702E /* GTMOAuth2ViewControllerTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E871AB7AE9B00DB702E /* GTMOAuth2ViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E491AB7AE9B00DB702E /* GTMOAuth2ViewControllerTouch.m */; };
 /* End PBXBuildFile section */
 
@@ -440,7 +439,6 @@
 				891C1E031AB7AE8100DB702E /* GTLDrivePermissionList.h in Headers */,
 				891C1E841AB7AE9B00DB702E /* GTMOAuth2WindowController.h in Headers */,
 				891C1E541AB7AE9B00DB702E /* GTLBatchResult.h in Headers */,
-				891C1E781AB7AE9B00DB702E /* JSON.h in Headers */,
 				891C1DFD1AB7AE8100DB702E /* GTLDriveParentList.h in Headers */,
 				891C1DEB1AB7AE8100DB702E /* GTLDriveApp.h in Headers */,
 				891C1E5A1AB7AE9B00DB702E /* GTLErrorObject.h in Headers */,
@@ -462,9 +460,9 @@
 				891C1DFB1AB7AE8100DB702E /* GTLDriveFileList.h in Headers */,
 				891C1E731AB7AE9B00DB702E /* GTMMIMEDocument.h in Headers */,
 				891C1E771AB7AE9B00DB702E /* JSON.h in Headers */,
+				891C1E771AB7AE9B00DB702E /* JSON.h in Headers */,
 				891C1DFF1AB7AE8100DB702E /* GTLDriveParentReference.h in Headers */,
 				891C1E051AB7AE8100DB702E /* GTLDriveRevision.h in Headers */,
-				891C1DAB1AB7AD5500DB702E /* GoogleDriveSDK.h in Headers */,
 				891C1E671AB7AE9B00DB702E /* GTMHTTPFetcherService.h in Headers */,
 				891C1E791AB7AE9B00DB702E /* SBJsonBase.h in Headers */,
 				891C1E071AB7AE8100DB702E /* GTLDriveRevisionList.h in Headers */,
@@ -472,6 +470,7 @@
 				891C1DE81AB7AE8100DB702E /* GTLDrive.h in Headers */,
 				891C1E6D1AB7AE9B00DB702E /* GTMHTTPFetchHistory.h in Headers */,
 				891C1E5E1AB7AE9B00DB702E /* GTLFramework.h in Headers */,
+				891C1DAB1AB7AD5500DB702E /* GoogleDriveSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -726,6 +725,7 @@
 		891C1DBC1AB7AD5500DB702E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -742,6 +742,7 @@
 		891C1DBD1AB7AD5500DB702E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
