@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		891C1DAB1AB7AD5500DB702E /* GoogleDriveSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DAA1AB7AD5500DB702E /* GoogleDriveSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		891C1DB11AB7AD5500DB702E /* GoogleDriveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891C1DA51AB7AD5500DB702E /* GoogleDriveSDK.framework */; };
-		891C1DB81AB7AD5500DB702E /* GoogleDriveSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1DB71AB7AD5500DB702E /* GoogleDriveSDKTests.m */; };
 		891C1DE81AB7AE8100DB702E /* GTLDrive.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DC31AB7AE8100DB702E /* GTLDrive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1DE91AB7AE8100DB702E /* GTLDriveAbout.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DC41AB7AE8100DB702E /* GTLDriveAbout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1DEA1AB7AE8100DB702E /* GTLDriveAbout.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1DC51AB7AE8100DB702E /* GTLDriveAbout.m */; };
@@ -107,23 +105,10 @@
 		891C1E871AB7AE9B00DB702E /* GTMOAuth2ViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E491AB7AE9B00DB702E /* GTMOAuth2ViewControllerTouch.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		891C1DB21AB7AD5500DB702E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 891C1D9C1AB7AD5500DB702E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 891C1DA41AB7AD5500DB702E;
-			remoteInfo = GoogleDriveSDK;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		891C1DA51AB7AD5500DB702E /* GoogleDriveSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleDriveSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		891C1DA91AB7AD5500DB702E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		891C1DAA1AB7AD5500DB702E /* GoogleDriveSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleDriveSDK.h; sourceTree = "<group>"; };
-		891C1DB01AB7AD5500DB702E /* GoogleDriveSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleDriveSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		891C1DB61AB7AD5500DB702E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		891C1DB71AB7AD5500DB702E /* GoogleDriveSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleDriveSDKTests.m; sourceTree = "<group>"; };
 		891C1DC31AB7AE8100DB702E /* GTLDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDrive.h; sourceTree = "<group>"; };
 		891C1DC41AB7AE8100DB702E /* GTLDriveAbout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDriveAbout.h; sourceTree = "<group>"; };
 		891C1DC51AB7AE8100DB702E /* GTLDriveAbout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDriveAbout.m; sourceTree = "<group>"; };
@@ -232,14 +217,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		891C1DAD1AB7AD5500DB702E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				891C1DB11AB7AD5500DB702E /* GoogleDriveSDK.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -247,7 +224,6 @@
 			isa = PBXGroup;
 			children = (
 				891C1DA71AB7AD5500DB702E /* GoogleDriveSDK */,
-				891C1DB41AB7AD5500DB702E /* GoogleDriveSDKTests */,
 				891C1DA61AB7AD5500DB702E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -256,7 +232,6 @@
 			isa = PBXGroup;
 			children = (
 				891C1DA51AB7AD5500DB702E /* GoogleDriveSDK.framework */,
-				891C1DB01AB7AD5500DB702E /* GoogleDriveSDKTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -276,23 +251,6 @@
 			isa = PBXGroup;
 			children = (
 				891C1DA91AB7AD5500DB702E /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		891C1DB41AB7AD5500DB702E /* GoogleDriveSDKTests */ = {
-			isa = PBXGroup;
-			children = (
-				891C1DB71AB7AD5500DB702E /* GoogleDriveSDKTests.m */,
-				891C1DB51AB7AD5500DB702E /* Supporting Files */,
-			);
-			path = GoogleDriveSDKTests;
-			sourceTree = "<group>";
-		};
-		891C1DB51AB7AD5500DB702E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				891C1DB61AB7AD5500DB702E /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -490,24 +448,6 @@
 			productReference = 891C1DA51AB7AD5500DB702E /* GoogleDriveSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		891C1DAF1AB7AD5500DB702E /* GoogleDriveSDKTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 891C1DBE1AB7AD5500DB702E /* Build configuration list for PBXNativeTarget "GoogleDriveSDKTests" */;
-			buildPhases = (
-				891C1DAC1AB7AD5500DB702E /* Sources */,
-				891C1DAD1AB7AD5500DB702E /* Frameworks */,
-				891C1DAE1AB7AD5500DB702E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				891C1DB31AB7AD5500DB702E /* PBXTargetDependency */,
-			);
-			name = GoogleDriveSDKTests;
-			productName = GoogleDriveSDKTests;
-			productReference = 891C1DB01AB7AD5500DB702E /* GoogleDriveSDKTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -518,9 +458,6 @@
 				ORGANIZATIONNAME = "HappenApps, Inc.";
 				TargetAttributes = {
 					891C1DA41AB7AD5500DB702E = {
-						CreatedOnToolsVersion = 6.2;
-					};
-					891C1DAF1AB7AD5500DB702E = {
 						CreatedOnToolsVersion = 6.2;
 					};
 				};
@@ -538,20 +475,12 @@
 			projectRoot = "";
 			targets = (
 				891C1DA41AB7AD5500DB702E /* GoogleDriveSDK */,
-				891C1DAF1AB7AD5500DB702E /* GoogleDriveSDKTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		891C1DA31AB7AD5500DB702E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		891C1DAE1AB7AD5500DB702E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -614,23 +543,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		891C1DAC1AB7AD5500DB702E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				891C1DB81AB7AD5500DB702E /* GoogleDriveSDKTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		891C1DB31AB7AD5500DB702E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 891C1DA41AB7AD5500DB702E /* GoogleDriveSDK */;
-			targetProxy = 891C1DB21AB7AD5500DB702E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		891C1DB91AB7AD5500DB702E /* Debug */ = {
@@ -753,36 +666,6 @@
 			};
 			name = Release;
 		};
-		891C1DBF1AB7AD5500DB702E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = GoogleDriveSDKTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		891C1DC01AB7AD5500DB702E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = GoogleDriveSDKTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -800,15 +683,6 @@
 			buildConfigurations = (
 				891C1DBC1AB7AD5500DB702E /* Debug */,
 				891C1DBD1AB7AD5500DB702E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		891C1DBE1AB7AD5500DB702E /* Build configuration list for PBXNativeTarget "GoogleDriveSDKTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				891C1DBF1AB7AD5500DB702E /* Debug */,
-				891C1DC01AB7AD5500DB702E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
