@@ -89,11 +89,11 @@
 		891C1E741AB7AE9B00DB702E /* GTMMIMEDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E361AB7AE9B00DB702E /* GTMMIMEDocument.m */; };
 		891C1E751AB7AE9B00DB702E /* GTMReadMonitorInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E371AB7AE9B00DB702E /* GTMReadMonitorInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E761AB7AE9B00DB702E /* GTMReadMonitorInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E381AB7AE9B00DB702E /* GTMReadMonitorInputStream.m */; };
-		891C1E791AB7AE9B00DB702E /* SBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E3B1AB7AE9B00DB702E /* SBJsonBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		891C1E791AB7AE9B00DB702E /* SBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E3B1AB7AE9B00DB702E /* SBJsonBase.h */; };
 		891C1E7A1AB7AE9B00DB702E /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E3C1AB7AE9B00DB702E /* SBJsonBase.m */; };
-		891C1E7B1AB7AE9B00DB702E /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E3D1AB7AE9B00DB702E /* SBJsonParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		891C1E7B1AB7AE9B00DB702E /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E3D1AB7AE9B00DB702E /* SBJsonParser.h */; };
 		891C1E7C1AB7AE9B00DB702E /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E3E1AB7AE9B00DB702E /* SBJsonParser.m */; };
-		891C1E7D1AB7AE9B00DB702E /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E3F1AB7AE9B00DB702E /* SBJsonWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		891C1E7D1AB7AE9B00DB702E /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E3F1AB7AE9B00DB702E /* SBJsonWriter.h */; };
 		891C1E7E1AB7AE9B00DB702E /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E401AB7AE9B00DB702E /* SBJsonWriter.m */; };
 		891C1E7F1AB7AE9B00DB702E /* GTMOAuth2Authentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E411AB7AE9B00DB702E /* GTMOAuth2Authentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E801AB7AE9B00DB702E /* GTMOAuth2Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E421AB7AE9B00DB702E /* GTMOAuth2Authentication.m */; };
@@ -103,6 +103,7 @@
 		891C1E851AB7AE9B00DB702E /* GTMOAuth2WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E471AB7AE9B00DB702E /* GTMOAuth2WindowController.m */; };
 		891C1E861AB7AE9B00DB702E /* GTMOAuth2ViewControllerTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E481AB7AE9B00DB702E /* GTMOAuth2ViewControllerTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		891C1E871AB7AE9B00DB702E /* GTMOAuth2ViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1E491AB7AE9B00DB702E /* GTMOAuth2ViewControllerTouch.m */; };
+		89FB8B221AB7BADC008ABF36 /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1E3A1AB7AE9B00DB702E /* JSON.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -374,13 +375,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				891C1E7D1AB7AE9B00DB702E /* SBJsonWriter.h in Headers */,
 				891C1E691AB7AE9B00DB702E /* GTMHTTPFetcher.h in Headers */,
 				891C1E711AB7AE9B00DB702E /* GTMGatherInputStream.h in Headers */,
 				891C1E5C1AB7AE9B00DB702E /* GTLRuntimeCommon.h in Headers */,
 				891C1E4B1AB7AE9B00DB702E /* GTLDefines.h in Headers */,
 				891C1DED1AB7AE8100DB702E /* GTLDriveAppList.h in Headers */,
-				891C1E7B1AB7AE9B00DB702E /* SBJsonParser.h in Headers */,
 				891C1E0B1AB7AE8100DB702E /* GTLServiceDrive.h in Headers */,
 				891C1E091AB7AE8100DB702E /* GTLQueryDrive.h in Headers */,
 				891C1E501AB7AE9B00DB702E /* GTLBatchQuery.h in Headers */,
@@ -417,13 +416,16 @@
 				891C1DFF1AB7AE8100DB702E /* GTLDriveParentReference.h in Headers */,
 				891C1E051AB7AE8100DB702E /* GTLDriveRevision.h in Headers */,
 				891C1E671AB7AE9B00DB702E /* GTMHTTPFetcherService.h in Headers */,
-				891C1E791AB7AE9B00DB702E /* SBJsonBase.h in Headers */,
 				891C1E071AB7AE8100DB702E /* GTLDriveRevisionList.h in Headers */,
 				891C1E621AB7AE9B00DB702E /* GTLTargetNamespace.h in Headers */,
 				891C1DE81AB7AE8100DB702E /* GTLDrive.h in Headers */,
 				891C1E6D1AB7AE9B00DB702E /* GTMHTTPFetchHistory.h in Headers */,
 				891C1E5E1AB7AE9B00DB702E /* GTLFramework.h in Headers */,
 				891C1DAB1AB7AD5500DB702E /* GoogleDriveSDK.h in Headers */,
+				891C1E7D1AB7AE9B00DB702E /* SBJsonWriter.h in Headers */,
+				891C1E7B1AB7AE9B00DB702E /* SBJsonParser.h in Headers */,
+				891C1E791AB7AE9B00DB702E /* SBJsonBase.h in Headers */,
+				89FB8B221AB7BADC008ABF36 /* JSON.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

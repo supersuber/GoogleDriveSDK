@@ -62,7 +62,3 @@ FOUNDATION_EXPORT const unsigned char GoogleDriveSDKVersionString[];
 #import <GoogleDriveSDK/GTMOAuth2WindowController.h>
 #import <GoogleDriveSDK/GTMReadMonitorInputStream.h>
 #import <GoogleDriveSDK/GoogleDriveSDK.h>
-#import <GoogleDriveSDK/JSON.h>
-#import <GoogleDriveSDK/SBJsonBase.h>
-#import <GoogleDriveSDK/SBJsonParser.h>
-#import <GoogleDriveSDK/SBJsonWriter.h>
