@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		891C1DAB1AB7AD5500DB702E /* GoogleDriveSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 891C1DAA1AB7AD5500DB702E /* GoogleDriveSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		891C1DB11AB7AD5500DB702E /* GoogleDriveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891C1DA51AB7AD5500DB702E /* GoogleDriveSDK.framework */; };
+		891C1DB81AB7AD5500DB702E /* GoogleDriveSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 891C1DB71AB7AD5500DB702E /* GoogleDriveSDKTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		891C1DB21AB7AD5500DB702E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 891C1D9C1AB7AD5500DB702E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 891C1DA41AB7AD5500DB702E;
+			remoteInfo = GoogleDriveSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		891C1DA51AB7AD5500DB702E /* GoogleDriveSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleDriveSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		891C1DA91AB7AD5500DB702E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		891C1DAA1AB7AD5500DB702E /* GoogleDriveSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleDriveSDK.h; sourceTree = "<group>"; };
+		891C1DB01AB7AD5500DB702E /* GoogleDriveSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleDriveSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		891C1DB61AB7AD5500DB702E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		891C1DB71AB7AD5500DB702E /* GoogleDriveSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleDriveSDKTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		891C1DA11AB7AD5500DB702E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891C1DAD1AB7AD5500DB702E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891C1DB11AB7AD5500DB702E /* GoogleDriveSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		891C1D9B1AB7AD5500DB702E = {
+			isa = PBXGroup;
+			children = (
+				891C1DA71AB7AD5500DB702E /* GoogleDriveSDK */,
+				891C1DB41AB7AD5500DB702E /* GoogleDriveSDKTests */,
+				891C1DA61AB7AD5500DB702E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		891C1DA61AB7AD5500DB702E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				891C1DA51AB7AD5500DB702E /* GoogleDriveSDK.framework */,
+				891C1DB01AB7AD5500DB702E /* GoogleDriveSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		891C1DA71AB7AD5500DB702E /* GoogleDriveSDK */ = {
+			isa = PBXGroup;
+			children = (
+				891C1DAA1AB7AD5500DB702E /* GoogleDriveSDK.h */,
+				891C1DA81AB7AD5500DB702E /* Supporting Files */,
+			);
+			path = GoogleDriveSDK;
+			sourceTree = "<group>";
+		};
+		891C1DA81AB7AD5500DB702E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				891C1DA91AB7AD5500DB702E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		891C1DB41AB7AD5500DB702E /* GoogleDriveSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				891C1DB71AB7AD5500DB702E /* GoogleDriveSDKTests.m */,
+				891C1DB51AB7AD5500DB702E /* Supporting Files */,
+			);
+			path = GoogleDriveSDKTests;
+			sourceTree = "<group>";
+		};
+		891C1DB51AB7AD5500DB702E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				891C1DB61AB7AD5500DB702E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		891C1DA21AB7AD5500DB702E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891C1DAB1AB7AD5500DB702E /* GoogleDriveSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		891C1DA41AB7AD5500DB702E /* GoogleDriveSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 891C1DBB1AB7AD5500DB702E /* Build configuration list for PBXNativeTarget "GoogleDriveSDK" */;
+			buildPhases = (
+				891C1DA01AB7AD5500DB702E /* Sources */,
+				891C1DA11AB7AD5500DB702E /* Frameworks */,
+				891C1DA21AB7AD5500DB702E /* Headers */,
+				891C1DA31AB7AD5500DB702E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleDriveSDK;
+			productName = GoogleDriveSDK;
+			productReference = 891C1DA51AB7AD5500DB702E /* GoogleDriveSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		891C1DAF1AB7AD5500DB702E /* GoogleDriveSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 891C1DBE1AB7AD5500DB702E /* Build configuration list for PBXNativeTarget "GoogleDriveSDKTests" */;
+			buildPhases = (
+				891C1DAC1AB7AD5500DB702E /* Sources */,
+				891C1DAD1AB7AD5500DB702E /* Frameworks */,
+				891C1DAE1AB7AD5500DB702E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				891C1DB31AB7AD5500DB702E /* PBXTargetDependency */,
+			);
+			name = GoogleDriveSDKTests;
+			productName = GoogleDriveSDKTests;
+			productReference = 891C1DB01AB7AD5500DB702E /* GoogleDriveSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		891C1D9C1AB7AD5500DB702E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "HappenApps, Inc.";
+				TargetAttributes = {
+					891C1DA41AB7AD5500DB702E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					891C1DAF1AB7AD5500DB702E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 891C1D9F1AB7AD5500DB702E /* Build configuration list for PBXProject "GoogleDriveSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 891C1D9B1AB7AD5500DB702E;
+			productRefGroup = 891C1DA61AB7AD5500DB702E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				891C1DA41AB7AD5500DB702E /* GoogleDriveSDK */,
+				891C1DAF1AB7AD5500DB702E /* GoogleDriveSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		891C1DA31AB7AD5500DB702E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891C1DAE1AB7AD5500DB702E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		891C1DA01AB7AD5500DB702E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891C1DAC1AB7AD5500DB702E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891C1DB81AB7AD5500DB702E /* GoogleDriveSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		891C1DB31AB7AD5500DB702E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 891C1DA41AB7AD5500DB702E /* GoogleDriveSDK */;
+			targetProxy = 891C1DB21AB7AD5500DB702E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		891C1DB91AB7AD5500DB702E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		891C1DBA1AB7AD5500DB702E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		891C1DBC1AB7AD5500DB702E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GoogleDriveSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		891C1DBD1AB7AD5500DB702E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GoogleDriveSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		891C1DBF1AB7AD5500DB702E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoogleDriveSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		891C1DC01AB7AD5500DB702E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoogleDriveSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		891C1D9F1AB7AD5500DB702E /* Build configuration list for PBXProject "GoogleDriveSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891C1DB91AB7AD5500DB702E /* Debug */,
+				891C1DBA1AB7AD5500DB702E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		891C1DBB1AB7AD5500DB702E /* Build configuration list for PBXNativeTarget "GoogleDriveSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891C1DBC1AB7AD5500DB702E /* Debug */,
+				891C1DBD1AB7AD5500DB702E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		891C1DBE1AB7AD5500DB702E /* Build configuration list for PBXNativeTarget "GoogleDriveSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891C1DBF1AB7AD5500DB702E /* Debug */,
+				891C1DC01AB7AD5500DB702E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 891C1D9C1AB7AD5500DB702E /* Project object */;
+}
